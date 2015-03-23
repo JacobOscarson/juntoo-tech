@@ -9,3 +9,5 @@ MANIFEST
 build/
 __pycache__/
 nohup.out
+cache/
+output/
