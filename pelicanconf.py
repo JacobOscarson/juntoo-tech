@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jacob Oscarson'
 SITENAME = u'Juntoo Technology Notes'
-SITEURL = ''
+SITEURL = 'https://juntoo.co/tech-notes'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Stockholm'
 
 DEFAULT_LANG = u'en'
 
@@ -17,17 +17,14 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+AUTHOR_FEED_RSS = True
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Official Juntoo Blog', 'http://blog.juntoo.co/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('@jacob414', 'https://twitter.com/jacob414'),
+          ('@eriklarsson', 'https://twitter.com/eriklarsson'),)
 
 DEFAULT_PAGINATION = 5
 
