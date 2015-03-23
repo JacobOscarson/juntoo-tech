@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+\.#*
+*.log
+.sass-cache/
+*.egg-info/
+dist/
+MANIFEST
+build/
+__pycache__/
+nohup.out
