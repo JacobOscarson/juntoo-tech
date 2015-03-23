@@ -5,13 +5,16 @@ import sys
 import SimpleHTTPServer
 import SocketServer
 
+env.use_ssh_config = True
+env.hosts = ('wf',)
+
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'root@localhost:22'
-dest_path = '/var/www'
+production = 'wf'
+dest_path = '~/webapps/juntoo_public/tech-notes'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
